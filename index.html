@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGreen Energy - Verificação de Benefício</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="top-banner">
+        <img src="https://igreenenergyteam.com.br/wp-content/uploads/2023/08/Ativo-4.png" alt="Logo iGreen Energy">
+    </header>
+
+    <main class="container">
+        <p class="subtitle">Descubra se você tem direito ao benefício</p>
+
+        <div class="quiz-box">
+            
+            <div class="step-counter" id="step-counter">1/3</div>
+
+            <p class="question-text" id="question-text">
+                Você é o titular da conta de energia?
+            </p>
+
+            <div class="button-container" id="button-container">
+                <button class="btn" id="btn-sim">Sim</button>
+                <button class="btn" id="btn-nao">Não</button>
+            </div>
+
+            <div class="form-wrapper" id="form-wrapper">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPQsvpEvaSkRFFjTsjl4ELB8BzmTXpNS6qwURdZ73V8KeE_w/viewform?embedded=true" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">
+                    Carregando…
+                </iframe>
+                <p class="form-question">Já preencheu os dados?</p>
+                <div class="form-buttons">
+                    <button class="btn" id="btn-form-sim">Sim</a >
+                    <button class="btn" id="btn-form-nao">Não</button>
+                </div>
+                <p class="error-message" id="error-message">
+                    Para prosseguir com o desconto é necessário preencher o formulário de segurança. Isso assegura que seu cadastro será efetivado. Não se preocupe, seus dados estão são assegurados pela nossa política de privacidade.
+                </p>
+            </div>
+
+            <div class="final-step" id="final-step">
+                <a href="https://digital.igreenenergy.com.br/?id=91507&sendcontract=true" class="btn btn-pulse">
+                    Prosseguir
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
